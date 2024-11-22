@@ -4,7 +4,7 @@ let total = 0;
 
 for (const x of Object.values(products)) {total+=x};
 
-return total<=containerSize? `true`: `false`;
+return total<=containerSize;
 
 }
 
